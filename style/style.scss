@@ -1,0 +1,92 @@
+$LightCyan:hsl(193, 38%, 86%);
+$NeonGreen : hsl(150, 100%, 66%);
+$GrayishBlue:hsl(217, 19%, 38%);
+$DarkGrayishBlue: hsl(217, 19%, 24%);
+$DarkBlue:hsl(218, 23%, 16%);
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+
+}
+body{
+    background-color: $DarkBlue;
+    color: $LightCyan;
+    text-decoration: none;
+}
+.container{
+    min-height: 500px;
+
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $DarkBlue;
+}
+.card{
+    position: relative;
+    min-height: 40%;
+    width: 93%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $DarkGrayishBlue;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+.title{
+    padding: 30px 0;
+    color: $NeonGreen;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+#advice{
+    color:$LightCyan;
+    font-size: 25px;
+    max-width: 90%;
+    min-height: 50%;
+    font-weight: bold;
+    text-align: center;
+}
+.divider{
+    height: 17px;
+    width: 70%;
+    margin: 25px 0;
+    padding-bottom:20px ;
+    background:url('/images/pattern-divider-mobile.svg') no-repeat center;
+   
+}
+.dice{
+    position: absolute;
+    top:91%;
+    background: url('/images/icon-dice.svg') center no-repeat,
+                $NeonGreen;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    &:hover{
+        box-shadow: 0px 0px 30px 0px $NeonGreen;
+        cursor: pointer;
+    }
+}
+.attribution{
+    text-align: center;
+    font-size: 11px;
+
+    a:link{
+        text-decoration:overline underline;
+        font-weight: 600;
+}
+    a:visited{
+        text-decoration: none;
+        color: $LightCyan;
+    }
+    a:hover{
+        box-shadow: 0px 0px 20px 0px $NeonGreen;
+
+    }
+}

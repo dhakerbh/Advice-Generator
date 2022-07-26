@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  background-color: #1f2632;
+  color: #cee3e9;
+  text-decoration: none;
+}
+
+.container {
+  min-height: 500px;
+  height: 97vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1f2632;
+}
+
+.card {
+  position: relative;
+  min-height: 40%;
+  width: 93%;
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #323a49;
+  padding-bottom: 20px;
+  border-radius: 15px;
+}
+
+.title {
+  padding: 30px 0;
+  color: #52ffa8;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+#advice {
+  color: #cee3e9;
+  font-size: 25px;
+  max-width: 90%;
+  min-height: 50%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.divider {
+  height: 17px;
+  width: 70%;
+  margin: 25px 0;
+  padding-bottom: 20px;
+  background: url("/images/pattern-divider-mobile.svg") no-repeat center;
+}
+
+.dice {
+  position: absolute;
+  top: 91%;
+  background: url("/images/icon-dice.svg") center no-repeat, #52ffa8;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.dice:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px #52ffa8;
+          box-shadow: 0px 0px 30px 0px #52ffa8;
+  cursor: pointer;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 11px;
+}
+
+.attribution a:link {
+  text-decoration: overline underline;
+  font-weight: 600;
+}
+
+.attribution a:visited {
+  text-decoration: none;
+  color: #cee3e9;
+}
+
+.attribution a:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px #52ffa8;
+          box-shadow: 0px 0px 20px 0px #52ffa8;
+}
+/*# sourceMappingURL=style.css.map */
